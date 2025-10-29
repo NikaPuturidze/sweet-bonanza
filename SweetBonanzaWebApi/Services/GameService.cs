@@ -73,7 +73,6 @@ namespace SweetBonanza.WebApi.Services
             return results;
         }
 
-
         private static List<List<string?>> GridToList(string?[,] grid)
         {
             int rows = grid.GetLength(0);
